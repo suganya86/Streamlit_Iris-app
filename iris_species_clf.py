@@ -56,5 +56,4 @@ if st.button("Predict"):
 	species_type = prediction(s_length, s_width, p_length, p_width)
 	st.write("Species predicted:", species_type)
 	st.write("Accuracy score of this model is:", score)
-	
-st.balloons()
+	st.balloons()
